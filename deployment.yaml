@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      bb: backend
+  template:
+    metadata:
+      labels:
+        bb: backend
+    spec:
+      containers:
+        - name: backend
+          image: pdngayan1/backend
+          imagePullPolicy: Never
