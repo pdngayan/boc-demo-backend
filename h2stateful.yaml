@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: h2-database
+spec:
+  serviceName: h2-database
+  replicas: 1
+  selector:
+    matchLabels:
+      app: h2-database
+  template:
+    metadata:
+      labels:
+        app: h2-database
+    spec:
+      containers:
+        - name: h2-database
+          image: oscarfonts/h2
+          ports:
+            - containerPort: 8082
+          volumeMounts:
+            - name: data
+              mountPath: /opt/h2-data
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: h2-database-pvc
