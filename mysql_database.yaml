@@ -1,0 +1,24 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: mysql-database-sc
+provisioner: kubernetes.io/gce-pd
+parameters:
+  type: pd-ssd
+  zone: us-central1-c
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-database-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: mysql-database-sc
+  resources:
+    requests:
+      storage: 10Gi
+
+
