@@ -16,3 +16,7 @@ git push --set-upstream origin main
 
 
 docker run -it -p 80:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock -v jenkins4:/var/jenkins_home -d pdngayan1/jenkins-docker-kubectl
+
+rollout updates
+---
+kubectl set image deployments/backend backend=pdngayan1/frontend
