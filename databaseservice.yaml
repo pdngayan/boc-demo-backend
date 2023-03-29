@@ -4,8 +4,8 @@ metadata:
   name: database-service
 spec:
   selector:
-    app: h2-database
+    app: mysql-database
   ports:
     - protocol: TCP
-      port: 1521
-      targetPort: 1521
+      port: 3306
+      targetPort: 3306
