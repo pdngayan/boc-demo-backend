@@ -9,7 +9,7 @@ public class Vendor {
     private String name;
 
 
-    public Vendor(Long id, String name, String email) {
+    public Vendor(Long id, String name) {
         this.id = id;
         this.name = name;
 
