@@ -1,9 +1,11 @@
 package com.baeldung.springbootreact.domain;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Entity;
 import javax.persistence.Table;
+
+
 
 public class Thilini {
 
