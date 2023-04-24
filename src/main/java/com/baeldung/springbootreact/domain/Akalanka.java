@@ -9,13 +9,7 @@ import javax.persistence.Table;
 @Table(name = "akalanka")
 public class Akalanka {
 
-    public Long getId() {
-        return id;
-    }
 
-    public String getName() {
-        return name;
-    }
 
     @Id
     @GeneratedValue
@@ -28,6 +22,12 @@ public class Akalanka {
     public void setName(String name) {
         this.name = name;
     }
+    public Long getId() {
+        return id;
+    }
 
+    public String getName() {
+        return name;
+    }
     private String name;
 }
