@@ -14,6 +14,8 @@ git commit -m "Add existing project files to Git"
 git remote add origin https://github.com/pdngayan/boc-demo-backend.git
 git push --set-upstream origin main 
 
+-- Chinthaka --
+
 
 docker run -it -p 80:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock -v jenkins4:/var/jenkins_home -d pdngayan1/jenkins-docker-kubectl
 
@@ -23,13 +25,14 @@ kubectl set image deployments/backend backend=pdngayan1/frontend
 
 akalanka
 
+Achini Edit
 
 
 
+//Lasitha
 
-//Eranga
 Gayan
-//sachin
+//sachin 
 
 
 
