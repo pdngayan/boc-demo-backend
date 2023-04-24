@@ -25,13 +25,14 @@ kubectl set image deployments/backend backend=pdngayan1/frontend
 
 akalanka
 
+Achini Edit
 
 
 
+//Lasitha
 
-//Eranga
 Gayan
-//sachin
+//sachin 
 
 
 
