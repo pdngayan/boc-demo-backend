@@ -9,7 +9,20 @@ import javax.persistence.Table;
 @Table(name = "client")
 public class Client {
 
-    @Id
+    @Idackage com.baeldung.springbootreact.domain;
+￼
+￼import javax.persistence.Entity;
+￼import javax.persistence.GeneratedValue;
+￼import javax.persistence.Id;
+￼import javax.persistence.Table;
+￼
+￼@Entity
+￼@Table(name = "osanda")
+￼public class osanda {
+￼
+￼    @Id
+￼    @GeneratedValue
+￼    private Long id;
     @GeneratedValue
     private Long id;
 
