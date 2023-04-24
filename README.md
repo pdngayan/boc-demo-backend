@@ -25,7 +25,21 @@ kubectl set image deployments/backend backend=pdngayan1/frontend
 
 akalanka
 
+Achini Edit
 
+
+
+
+
+
+
+
+
+
+
+
+
+DONOTREJECT
 
 
 
@@ -33,6 +47,4 @@ akalanka
 Gayan
 //sachin
 
-
-
-Lakmal check
+//Samitha
