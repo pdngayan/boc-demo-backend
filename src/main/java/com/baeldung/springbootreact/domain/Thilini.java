@@ -1,13 +1,11 @@
 package com.baeldung.springbootreact.domain;
 
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@Entity
-@Table(name = "osanda")
-public class osanda {
+public class Thilini {
 
     @Id
     @GeneratedValue
@@ -16,15 +14,15 @@ public class osanda {
     private String name;
     private String email;
 
-    public osanda() {
+    public Thilini() {
     }
 
-    public osanda(String name, String email) {
+    public Thilini(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    public osanda(Long id, String name, String email) {
+    public Thilini(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
