@@ -8,7 +8,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "dewa")
 public class Dewa {
-
     @Id
     @GeneratedValue
     private Long id;
