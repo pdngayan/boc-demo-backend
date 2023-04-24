@@ -29,30 +29,11 @@ Achini Edit
 
 
 
+//Lasitha
 
-
-
-
-
-
-
-
-
-
-DONOTREJECT
-
-
-
-
-
-
-//Eranga
 Gayan
-//sachin
+//sachin 
 
 
 
 Lakmal check
-
-
-Do not reject
