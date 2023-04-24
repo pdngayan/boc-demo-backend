@@ -22,3 +22,17 @@ docker run -it -p 80:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker
 rollout updates
 ---
 kubectl set image deployments/backend backend=pdngayan1/frontend
+
+akalanka
+
+
+
+
+
+//Eranga
+Gayan
+//sachin
+
+
+
+Lakmal check
