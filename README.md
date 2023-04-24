@@ -21,8 +21,30 @@ rollout updates
 ---
 kubectl set image deployments/backend backend=pdngayan1/frontend
 
-//Buddhika
+akalanka
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DONOTREJECT
+
+
+
+
+
+
+//Eranga
 Gayan
 //sachin
 
@@ -32,3 +54,9 @@ Gayan
 
 
 Thilina
+
+
+Lakmal check
+
+
+Do not reject
