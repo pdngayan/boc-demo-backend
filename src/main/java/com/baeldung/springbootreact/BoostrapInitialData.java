@@ -1,6 +1,5 @@
 package com.baeldung.springbootreact;
 
-import com.baeldung.springbootreact.domain.Client;
 import com.baeldung.springbootreact.repository.ClientRepository;
 import com.github.javafaker.Faker;
 import org.springframework.boot.CommandLineRunner;
