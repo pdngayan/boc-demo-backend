@@ -40,7 +40,7 @@ public class Thilini {
 
     public String getName() {
         return name;
-    }
+    }Thilini
 
     public void setName(String name) {
         this.name = name;
