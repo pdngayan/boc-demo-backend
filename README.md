@@ -21,4 +21,5 @@ rollout updates
 ---
 kubectl set image deployments/backend backend=pdngayan1/frontend
 
+Gayan
 //sachin
