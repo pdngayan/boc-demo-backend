@@ -6,38 +6,25 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "client")
-public class Client {
+@Table(name = "Osanda")
+public class Osanda {
 
-    @Idackage com.baeldung.springbootreact.domain;
-￼
-￼import javax.persistence.Entity;
-￼import javax.persistence.GeneratedValue;
-￼import javax.persistence.Id;
-￼import javax.persistence.Table;
-￼
-￼@Entity
-￼@Table(name = "osanda")
-￼public class osanda {
-￼
-￼    @Id
-￼    @GeneratedValue
-￼    private Long id;
+    @Id
     @GeneratedValue
     private Long id;
 
     private String name;
     private String email;
 
-    public Client() {
+    public Osanda() {
     }
 
-    public Client(String name, String email) {
+    public Osanda(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    public Client(Long id, String name, String email) {
+    public Osanda(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
