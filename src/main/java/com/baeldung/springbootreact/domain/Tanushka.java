@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tanushka")
-public class tanushka {
+public class Tanushka {
 
     @Id
     @GeneratedValue
@@ -16,15 +16,15 @@ public class tanushka {
     private String name;
     private String email;
 
-    public tanushka() {
+    public Tanushka() {
     }
 
-    public tanushka(String name, String email) {
+    public Tanushka(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    public tanushka(Long id, String name, String email) {
+    public Tanushka(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;

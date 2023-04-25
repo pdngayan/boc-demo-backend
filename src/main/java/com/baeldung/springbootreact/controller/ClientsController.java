@@ -1,5 +1,6 @@
 package com.baeldung.springbootreact.controller;
 
+import com.baeldung.springbootreact.domain.Client;
 import com.baeldung.springbootreact.repository.ClientRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
-import  com.baeldung.springbootreact.domain.Client;
+
 @RestController
 @RequestMapping("/clients")
 public class ClientsController {

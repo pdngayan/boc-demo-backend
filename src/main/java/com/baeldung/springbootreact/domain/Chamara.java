@@ -30,13 +30,9 @@ public class Chamara {
 
     private String address;
 
-    private String phone;
-
     public String getAddress() {
         return address;
     }
-
-    //Testing
 
     public void setAddress(String address) {
         this.address = address;
@@ -58,19 +54,10 @@ public class Chamara {
         this.email = email;
     }
 
-    public Chamara(Long id, String name, String email, String address, String phone) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.address = address;
-        this.phone = phone;
-    }
-
-// Hello
     public Long getId() {
         return id;
     }
-    //Hello Chamara
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -91,15 +78,10 @@ public class Chamara {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     // TS
 
         //pr
+    public void inetBanking(){
+        System.out.println("Success");
+    }
 }
