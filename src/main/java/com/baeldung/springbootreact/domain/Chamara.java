@@ -1,5 +1,7 @@
 package com.baeldung.springbootreact.domain;
 
+import org.springframework.http.converter.json.GsonBuilderUtils;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
