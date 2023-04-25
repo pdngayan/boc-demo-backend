@@ -25,17 +25,18 @@ public class tanushka {
         this.email = email;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     public tanushka(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
-    }
-
-    public tanushka(Long id, String name, String email, String phone) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
     }
 
     public Long getId() {
