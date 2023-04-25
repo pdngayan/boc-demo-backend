@@ -6,8 +6,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "sajani")
-public class Sajani {
+@Table(name = "Rangika")
+public class Rangika {
 
     @Id
     @GeneratedValue
@@ -16,20 +16,29 @@ public class Sajani {
     private String name;
     private String email;
 
-    public Sajani() {
+    public String getAddress() {
+        return address;
     }
 
-    public Sajani(String name, String email) {
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    private String  address;
+
+    public Rangika() {
+    }
+
+    public Rangika(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    public Sajani(Long id, String name, String email) {
+    public Rangika(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
     }
-
 
     public Long getId() {
         return id;
