@@ -18,17 +18,17 @@ public class Sanduni {
 
 
 
-    private integer teleno;
+    private int teleno;
 
     public Sanduni() {
     }
 
-    public Client(String name, String email) {
+    public Sanduni(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    public Client(Long id, String name, String email) {
+    public Sanduni(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -58,11 +58,11 @@ public class Sanduni {
         this.email = email;
     }
 
-    public integer getTeleno() {
+    public int getTeleno() {
         return teleno;
     }
 
-    public void setTeleno(integer teleno) {
+    public void setTeleno(int teleno) {
         this.teleno = teleno;
     }
 }
