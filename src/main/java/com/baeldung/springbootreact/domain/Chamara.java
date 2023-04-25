@@ -65,13 +65,12 @@ public class Chamara {
     public String getEmail() {
         return email;
     }
-
+    //SC
     public void setEmail(String email) {
         this.email = email;
     }
 
     // TS
 
-
-    //pr
+        //pr
 }
