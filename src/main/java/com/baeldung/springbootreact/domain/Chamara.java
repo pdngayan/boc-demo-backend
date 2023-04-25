@@ -14,7 +14,7 @@ public class Chamara {
     @Id
     @GeneratedValue
     private Long id;
-
+//batch 01
     private String name;
     private String email;
 
