@@ -14,7 +14,9 @@ public class Chamara {
     @Id
     @GeneratedValue
     private Long id;
+    //gayan
 
+//batch 01
     private String name;
     private String email;
 
@@ -66,7 +68,6 @@ public class Chamara {
         return name;
     }
 
-
     public void setName(String name) {
         this.name = name;
     }
@@ -75,6 +76,7 @@ public class Chamara {
         return email;
     }
     //SC
+    //Hello from Lakshika
     public void setEmail(String email) {
         this.email = email;
     }
@@ -84,7 +86,6 @@ public class Chamara {
         //pr
     public void inetBanking(){
         System.out.println("Success");
-        System.out.println("Loading...");
     }
 
     public void inetBankingNot(){
