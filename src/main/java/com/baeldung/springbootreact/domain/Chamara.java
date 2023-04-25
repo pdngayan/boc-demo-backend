@@ -13,6 +13,8 @@ public class Chamara {
     @GeneratedValue
     private Long id;
 
+    private string test;
+
     private String name;
     private String email;
 
@@ -25,6 +27,8 @@ public class Chamara {
     public void setAddress(String address) {
         this.address = address;
     }
+
+
 
     public Chamara() {
     }
@@ -62,5 +66,13 @@ public class Chamara {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public string getTest() {
+        return test;
+    }
+
+    public void setTest(string test) {
+        this.test = test;
     }
 }
