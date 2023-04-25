@@ -41,8 +41,7 @@ public class Chamara {
     public Chamara() {
         System.out.println("chamara");
     }
-//comment
-    //crocodile chamara
+
     public Chamara(String name, String email) {
         this.name = name;
         this.email = email;
@@ -55,12 +54,10 @@ public class Chamara {
         this.email = email;
     }
 
-
-    //Hello By Chathura
     public Long getId() {
         return id;
     }
-    //Hello Chamara
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -76,10 +73,12 @@ public class Chamara {
     public String getEmail() {
         return email;
     }
-
+    //SC
     public void setEmail(String email) {
         this.email = email;
     }
 
     // TS
+
+        //pr
 }
