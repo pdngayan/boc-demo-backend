@@ -14,6 +14,7 @@ public class Chamara {
     @Id
     @GeneratedValue
     private Long id;
+    //gayan
 
     private String name;
     private String email;
