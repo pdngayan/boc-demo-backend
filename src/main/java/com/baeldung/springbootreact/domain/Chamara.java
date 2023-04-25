@@ -24,8 +24,6 @@ public class Chamara {
         return address;
     }
 
-    //Testing
-
     public void setAddress(String address) {
         this.address = address;
     }
@@ -33,7 +31,7 @@ public class Chamara {
     public Chamara() {
         System.out.println("chamara");
     }
-//comment
+
     public Chamara(String name, String email) {
         this.name = name;
         this.email = email;
@@ -45,11 +43,11 @@ public class Chamara {
         this.name = name;
         this.email = email;
     }
-// Hello
+
     public Long getId() {
         return id;
     }
-    //Hello Chamara
+
     public void setId(Long id) {
         this.id = id;
     }
