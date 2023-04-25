@@ -18,6 +18,16 @@ public class Chamara {
     private String name;
     private String email;
 
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    private String age;
+
     private String address;
 
     public String getAddress() {
@@ -31,7 +41,7 @@ public class Chamara {
     public Chamara() {
         System.out.println("chamara");
     }
-//comment
+
     public Chamara(String name, String email) {
         this.name = name;
         this.email = email;
@@ -44,12 +54,10 @@ public class Chamara {
         this.email = email;
     }
 
-
-    //Hello By Chathura
     public Long getId() {
         return id;
     }
-    //Hello Chamara
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -66,9 +74,12 @@ public class Chamara {
         return email;
     }
     //Hello from Lakshika
+    //SC
     public void setEmail(String email) {
         this.email = email;
     }
 
     // TS
+
+        //pr
 }
