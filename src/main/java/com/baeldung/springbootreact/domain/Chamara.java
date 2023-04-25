@@ -18,6 +18,16 @@ public class Chamara {
     private String name;
     private String email;
 
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    private String age;
+
     private String address;
 
     private String phone;
@@ -76,7 +86,7 @@ public class Chamara {
     public String getEmail() {
         return email;
     }
-
+    //SC
     public void setEmail(String email) {
         this.email = email;
     }
@@ -91,6 +101,5 @@ public class Chamara {
 
     // TS
 
-
-    //pr
+        //pr
 }
