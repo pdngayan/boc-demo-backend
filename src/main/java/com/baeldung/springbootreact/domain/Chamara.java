@@ -65,7 +65,7 @@ public class Chamara {
     public String getEmail() {
         return email;
     }
-
+    //Hello from Lakshika
     public void setEmail(String email) {
         this.email = email;
     }
