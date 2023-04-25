@@ -1,15 +1,13 @@
 package com.baeldung.springbootreact.domain;
 
-import org.springframework.http.converter.json.GsonBuilderUtils;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "chamara")
-public class Chamara {
+@Table(name = "prageeth")
+public class Prageeth {
 
     @Id
     @GeneratedValue
@@ -18,42 +16,32 @@ public class Chamara {
     private String name;
     private String email;
 
-    private String address;
+    private int mobile;
 
-    public String getAddress() {
-        return address;
+    public Prageeth() {
     }
 
-    //Testing
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public Chamara() {
-        System.out.println("chamara");
-    }
-//comment
-    public Chamara(String name, String email) {
+    public Prageeth(String name, String email, int mobile) {
         this.name = name;
         this.email = email;
-        //System.out.println(">>>>>")
+        this.setMobile(mobile);
     }
 
-    public Chamara(Long id, String name, String email) {
+    public Prageeth(Long id, String name, String email, int mobile) {
         this.id = id;
         this.name = name;
         this.email = email;
+        this.setMobile(mobile);
     }
-// Hello
+
     public Long getId() {
         return id;
     }
-    //Hello Chamara
+
     public void setId(Long id) {
         this.id = id;
     }
-//comment by thiliA
+
     public String getName() {
         return name;
     }
@@ -70,5 +58,11 @@ public class Chamara {
         this.email = email;
     }
 
-    // TS
+    public int getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(int mobile) {
+        this.mobile = mobile;
+    }
 }

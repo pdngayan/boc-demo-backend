@@ -1,15 +1,13 @@
 package com.baeldung.springbootreact.domain;
-
-import org.springframework.http.converter.json.GsonBuilderUtils;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "chamara")
-public class Chamara {
+@Table(name = "vindhaya")
+
+public class Vindhaya {
 
     @Id
     @GeneratedValue
@@ -18,42 +16,28 @@ public class Chamara {
     private String name;
     private String email;
 
-    private String address;
-
-    public String getAddress() {
-        return address;
+    public Vindhaya() {
     }
 
-    //Testing
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public Chamara() {
-        System.out.println("chamara");
-    }
-//comment
-    public Chamara(String name, String email) {
+    public Vindhaya(String name, String email) {
         this.name = name;
         this.email = email;
-        //System.out.println(">>>>>")
     }
 
-    public Chamara(Long id, String name, String email) {
+    public Vindhaya(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
     }
-// Hello
+
     public Long getId() {
         return id;
     }
-    //Hello Chamara
+
     public void setId(Long id) {
         this.id = id;
     }
-//comment by thiliA
+
     public String getName() {
         return name;
     }
@@ -69,6 +53,4 @@ public class Chamara {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    // TS
 }
