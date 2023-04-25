@@ -72,4 +72,8 @@ public class Chamara {
     }
 
     // TS
+
+    public void HiChamara () {
+        System.out.println("R C B Fonseka");
+    }
 }
