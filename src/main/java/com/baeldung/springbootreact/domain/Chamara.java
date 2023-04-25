@@ -22,6 +22,8 @@ public class Chamara {
         return address;
     }
 
+    //Testing
+
     public void setAddress(String address) {
         this.address = address;
     }
