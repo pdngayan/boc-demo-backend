@@ -1,35 +1,33 @@
 package com.baeldung.springbootreact.domain;
 
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "sajani")
-public class Sajani {
+public class Mihiri {
+
 
     @Id
     @GeneratedValue
     private Long id;
 
     private String name;
-    private String email;
+    private String address;
 
-    public Sajani() {
+
+
+    public Mihiri() {
     }
 
-    public Sajani(String name, String email) {
+    public Mihiri(String name, String address) {
         this.name = name;
-        this.email = email;
+        this.address = address;
     }
 
-    public Sajani(Long id, String name, String email) {
+    public Mihiri(Long id, String name, String address) {
         this.id = id;
         this.name = name;
-        this.email = email;
+        this.address = address;
     }
-
 
     public Long getId() {
         return id;
@@ -47,11 +45,11 @@ public class Sajani {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public String getAddress() {
+        return address;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setAddress(String email) {
+        this.address = address;
     }
 }
