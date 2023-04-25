@@ -29,7 +29,6 @@ public class Chamara {
     public Chamara() {
     }
 
-
     public Chamara(String name, String email) {
         this.name = name;
         this.email = email;
@@ -40,8 +39,6 @@ public class Chamara {
         this.name = name;
         this.email = email;
     }
-
-    //added by Chathura
 
     public Long getId() {
         return id;
