@@ -18,11 +18,25 @@ public class Chamara {
     private String name;
     private String email;
 
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    private String age;
+
     private String address;
+
+    private String phone;
 
     public String getAddress() {
         return address;
     }
+
+    //Testing
 
     public void setAddress(String address) {
         this.address = address;
@@ -31,8 +45,7 @@ public class Chamara {
     public Chamara() {
         System.out.println("chamara");
     }
-//comment
-    //crocodile chamara
+
     public Chamara(String name, String email) {
         this.name = name;
         this.email = email;
@@ -45,8 +58,15 @@ public class Chamara {
         this.email = email;
     }
 
+    public Chamara(Long id, String name, String email, String address, String phone) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.address = address;
+        this.phone = phone;
+    }
 
-    //Hello By Chathura
+// Hello
     public Long getId() {
         return id;
     }
@@ -66,14 +86,20 @@ public class Chamara {
     public String getEmail() {
         return email;
     }
-
+    //SC
     public void setEmail(String email) {
         this.email = email;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     // TS
 
-    public void HiChamara () {
-        System.out.println("R C B Fonseka");
-    }
+        //pr
 }
