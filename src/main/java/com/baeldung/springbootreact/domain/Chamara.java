@@ -88,5 +88,6 @@ public class Chamara {
 
     public void inetBankingNot(){
         System.out.println("Fail");
+        System.out.println("Okay");
     }
 }
