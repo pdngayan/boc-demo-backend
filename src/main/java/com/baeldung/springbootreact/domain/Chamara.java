@@ -71,5 +71,10 @@ public class Chamara {
         this.email = email;
     }
 
+
+    public void inetBanking(){
+        System.out.println("Success");
+    }
+
     // TS
 }
