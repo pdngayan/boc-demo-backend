@@ -66,6 +66,7 @@ public class Chamara {
         return name;
     }
 
+
     public void setName(String name) {
         this.name = name;
     }
@@ -82,4 +83,12 @@ public class Chamara {
     // TS
 
         //pr
+    public void inetBanking(){
+        System.out.println("Success");
+        System.out.println("Loading...");
+    }
+
+    public void inetBankingNot(){
+        System.out.println("Fail");
+    }
 }
