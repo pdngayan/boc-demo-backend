@@ -18,6 +18,8 @@ public class Chamara {
 
     private String address;
 
+    private String phone;
+
     public String getAddress() {
         return address;
     }
@@ -38,6 +40,14 @@ public class Chamara {
         this.id = id;
         this.name = name;
         this.email = email;
+    }
+
+    public Chamara(Long id, String name, String email, String address, String phone) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.address = address;
+        this.phone = phone;
     }
 
     public Long getId() {
@@ -62,5 +72,13 @@ public class Chamara {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }
