@@ -16,6 +16,7 @@ public class Chamara {
     private Long id;
     //gayan
 
+//batch 01
     private String name;
     private String email;
 
