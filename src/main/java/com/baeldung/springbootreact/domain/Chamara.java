@@ -24,6 +24,8 @@ public class Chamara {
         return address;
     }
 
+    //Testing
+
     public void setAddress(String address) {
         this.address = address;
     }
@@ -32,7 +34,6 @@ public class Chamara {
         System.out.println("chamara");
     }
 //comment
-    //crocodile chamara
     public Chamara(String name, String email) {
         this.name = name;
         this.email = email;
@@ -44,9 +45,7 @@ public class Chamara {
         this.name = name;
         this.email = email;
     }
-
-
-    //Hello By Chathura
+// Hello
     public Long getId() {
         return id;
     }
@@ -71,10 +70,8 @@ public class Chamara {
         this.email = email;
     }
 
-
-    public void inetBanking(){
-        System.out.println("Success");
-    }
-
     // TS
+
+
+    //pr
 }
