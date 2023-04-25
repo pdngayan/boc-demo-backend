@@ -1,8 +1,12 @@
 package com.baeldung.springbootreact.domain;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "Mihiri")
 public class Mihiri {
 
 
@@ -44,6 +48,7 @@ public class Mihiri {
     public void setName(String name) {
         this.name = name;
     }
+
 
     public String getAddress() {
         return address;
