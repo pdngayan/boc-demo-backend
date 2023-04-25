@@ -27,6 +27,7 @@ public class Chamara {
     }
 
     public Chamara() {
+        // hello
     }
 
     public Chamara(String name, String email) {
@@ -39,6 +40,8 @@ public class Chamara {
         this.name = name;
         this.email = email;
     }
+
+
 
     public Long getId() {
         return id;
@@ -63,4 +66,10 @@ public class Chamara {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public void inetbanking(){
+
+        System.out.println("Success");
+    }
+
 }
