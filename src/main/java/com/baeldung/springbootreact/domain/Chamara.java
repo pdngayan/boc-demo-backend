@@ -24,16 +24,20 @@ public class Chamara {
         return address;
     }
 
+    //Testing
+
     public void setAddress(String address) {
         this.address = address;
     }
 
     public Chamara() {
+        System.out.println("chamara");
     }
 
     public Chamara(String name, String email) {
         this.name = name;
         this.email = email;
+        //System.out.println(">>>>>")
     }
 
     public Chamara(Long id, String name, String email) {
@@ -50,14 +54,15 @@ public class Chamara {
         this.phone = phone;
     }
 
+// Hello
     public Long getId() {
         return id;
     }
-
+    //Hello Chamara
     public void setId(Long id) {
         this.id = id;
     }
-
+//comment by thiliA
     public String getName() {
         return name;
     }
@@ -81,4 +86,6 @@ public class Chamara {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    // TS
 }
