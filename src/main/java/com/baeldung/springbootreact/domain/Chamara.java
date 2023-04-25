@@ -47,7 +47,7 @@ public class Chamara {
     public void setId(Long id) {
         this.id = id;
     }
-
+//comment by thiliA
     public String getName() {
         return name;
     }
