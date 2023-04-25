@@ -84,4 +84,7 @@ public class Chamara {
 
 
     //pr
+    public void inetBanking(){
+        System.out.println("Success");
+    }
 }
