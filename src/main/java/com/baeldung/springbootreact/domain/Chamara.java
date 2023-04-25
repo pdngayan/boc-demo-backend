@@ -39,7 +39,7 @@ public class Chamara {
         this.name = name;
         this.email = email;
     }
-    //Added by Chathura
+
     public Long getId() {
         return id;
     }
