@@ -20,7 +20,7 @@ public class Sanduni {
 
     private integer teleno;
 
-    public Client() {
+    public Sanduni() {
     }
 
     public Client(String name, String email) {
