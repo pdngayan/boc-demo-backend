@@ -16,7 +16,8 @@ pdngayan1/jenkins-docker-kubectl
 
 rollout updates
 ---
-kubectl set image deployments/backend backend=pdngayan1/frontend
+kubectl set image deployments/frontend frontend=pdngayan1/frontend
 
 Gayan
 Gayan Test
+
