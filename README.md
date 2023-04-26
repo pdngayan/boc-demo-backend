@@ -21,3 +21,8 @@ kubectl set image deployments/frontend frontend=pdngayan1/frontend
 Gayan
 Gayan Test
 
+
+
+cat my_password.txt | docker login --username pdngayan1 --password-stdin
+docker build -t pdngayan1/backend .
+docker push pdngayan1/backend
