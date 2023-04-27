@@ -1,5 +1,6 @@
 package com.baeldung.springbootreact;
 
+import com.baeldung.springbootreact.domain.Client;
 import com.baeldung.springbootreact.repository.ClientRepository;
 import com.github.javafaker.Faker;
 import org.springframework.boot.CommandLineRunner;
@@ -19,8 +20,8 @@ public class BoostrapInitialData implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        for (int i = 0; i < 10; i++) {
-            //clientRepository.save(new Client(faker.name().fullName(), faker.internet().emailAddress()));
+        for (int i = 0; i < 100; i++) {
+            clientRepository.save(new Client(faker.name().fullName(), faker.internet().emailAddress()));
         }
     }
 }
